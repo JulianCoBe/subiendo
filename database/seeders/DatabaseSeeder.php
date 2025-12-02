@@ -18,8 +18,6 @@ class MoonshineAdminSeeder extends Seeder
                 'password' => Hash::make('password123'),
                 'avatar' => null,
                 'remember_token' => null,
-                'created_at' => now(),
-                'updated_at' => now(),
             ]
         );
     }
